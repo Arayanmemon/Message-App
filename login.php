@@ -67,8 +67,8 @@ body {
 		echo "Email address already exists";
 	}?>		
   <form action="loginb.php" style="user-select: auto;">
-    <img class="mb-4" src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57" style="user-select: auto;">
-    <h1 class="h3 mb-3 fw-normal" style="user-select: auto;">Please sign in</h1>
+   
+    <h1 class="h3 mb-3 fw-normal" style="user-select: auto;">Sign in</h1>
 
     <div class="form-floating">
       <input type="email" name="Email" class="form-control" id="floatingInput" placeholder="name@example.com" >
@@ -89,7 +89,7 @@ body {
     </div>
     <button class="w-100 btn btn-lg btn-primary" type="submit" style="">Sign in</button>
     <p>New User <a href="register.php">Sign Up?</a></p>
-    <p class="mt-5 mb-3 text-muted" style="user-select: auto;">© 2017–2021</p>
+    <p class="mt-5 mb-3 text-muted" style="user-select: auto;">© 2021–2022</p>
   </form>
 </main>
 

@@ -1,12 +1,13 @@
 <?php
 session_start();
 $id= $_SESSION['a'];
+$reciever_id=0;
 
 $conn = new mysqli("localhost", "root", "" , "ex");
 
-if($_GET['reciever_id']){
+if(isset($_GET['reciever_id'])){
   $reciever_id = $_GET['reciever_id'];
-
+ 
     $sqel="INSERT INTO `messeges`(`sender_id`, `reciever_id`, `subject`, `messege_text`) VALUES ('".$id."' ,'".$reciever_id."','".$_GET['subj']."' ,'".$_GET['desc']."')";
     
     $res= $conn->query($sqel);
