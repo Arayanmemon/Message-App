@@ -1,0 +1,9 @@
+CREATE TABLE `messeges` (
+  `messege_id` int(11) NOT NULL,
+  `sender_id` int(11) NOT NULL,
+  `reciever_id` int(11) NOT NULL,
+  `subject` varchar(50) NOT NULL,
+  `messege_text` varchar(255) NOT NULL,
+  `status` int(11) NOT NULL DEFAULT 1,
+  `created` date DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
