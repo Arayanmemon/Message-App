@@ -10,3 +10,5 @@ This project is the part of my PHP learning journey. It is the messege applicati
 - and run this in your browser tab 'http://localhost/Message-App/messenger/code/login.php'
 - you are good to go
 
+## Feel free to contribute
+
