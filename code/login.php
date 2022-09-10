@@ -68,7 +68,7 @@ body {
 	}?>		
   <form action="loginb.php" style="user-select: auto;">
    
-    <h1 class="h3 mb-3 fw-normal" style="user-select: auto;">Sign in</h1>
+    <h1 class="h3 mb-3 fw-normal" style="user-select: auto;">Login</h1>
 
     <div class="form-floating">
       <input type="email" name="Email" class="form-control" id="floatingInput" placeholder="name@example.com" >
@@ -77,18 +77,13 @@ body {
     <div class="form-floating">
       <input type="password" name="pass" class="form-control" id="floatingPassword" placeholder="Password">
       <label for="floatingPassword" >Password</label>
-    </div>
+    </div><br>
     <?php if( isset($_GET['pas']) ){
 		echo "wrong password";
 	}?>	
 
-    <div class="checkbox mb-3" style="user-select: auto;">
-      <label style="user-select: auto;">
-        <input type="checkbox" value="remember-me" style="user-select: auto;"> Remember me
-      </label>
-    </div>
-    <button class="w-100 btn btn-lg btn-primary" type="submit" style="">Sign in</button>
-    <p>New User <a href="register.php">Sign Up?</a></p>
+    <button class="w-100 btn btn-md btn-primary" type="submit" style="">Login</button>
+    <p class="mt-2">New User <a href="register.php">Sign Up?</a></p>
     <p class="mt-5 mb-3 text-muted" style="user-select: auto;">© 2021–2022</p>
   </form>
 </main>
